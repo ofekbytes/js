@@ -1,0 +1,53 @@
+
+
+---[JavaScripts links]---
+
+
+// mozilla
+
+//---[Front-end_web_developer]----//
+https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer
+
+
+
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide
+
+
+https://www.w3schools.com/js/default.asp
+
+
+// js - category
+https://www.w3schools.com/jsref/default.asp
+
+// js - alphabet
+https://www.w3schools.com/jsref/jsref_reference.asp
+
+
+// dom
+https://developer.mozilla.org/en-US/docs/Glossary/DOM
+
+https://www.w3schools.com/jsref/dom_obj_document.asp
+
+
+// date
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+
+
+// json
+https://www.w3schools.com/jsref/jsref_obj_json.asp
+
+
+// api
+https://developer.mozilla.org/en-US/docs/Web/API
+
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+
+// 
+
+

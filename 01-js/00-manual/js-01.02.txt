@@ -1,0 +1,134 @@
+.
+.
+Java-Script
+.
+.
+
+1. JavaScript template
+
+1.01 - escaped characters are:
+1.02 - JavaScript JavaScript Reserved Words
+1.03 - JavaScript Arithmetic Operators 
+1.04 - JavaScript Assignment Operators 
+1.05 - JavaScript Comparison Operators
+1.06 - 
+
+
+.
+.
+1. JavaScript template 
+
+- JavaScript Template Inside HTML file
+
+    <script>
+        ...
+        ...
+    </script>
+
+    <!-- no java script error message -->
+    <noscript>
+        <h3>JavaScript is Required</h3>
+    </noscript>  
+
+
+- JavaScript Template Inside HTML file
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavaScript Template</title>
+        <!-- head.script -->
+        <script>
+            var x = 156;
+            console.log("JavaScript inside head section");
+            console.log('x ==> ', x);
+        </script>
+    </head>
+
+    <body>
+        <!-- body.script -->
+        <script>
+            x++;
+            console.log("JavaScript inside head section");
+            console.log('x++ ==> ', x);
+        </script>
+    </body>
+
+</html>
+
+
+
+
+.
+.
+1.01 - escaped characters are:
+
+\'   ' 
+\"   "
+\\   \
+\t   <tab>
+\n   <new line>
+\r   <carriage_return>
+\b   <backspace>
+\f   <form_feed>
+
+
+.
+.
+1.02 - JavaScript JavaScript Reserved Words
+
+abstract , arguments , await* , boolean , break , byte , case , catch , 
+char , class* , const , continue , debugger , default , delete , do , 
+double , else , enum* , eval , export* , extends* , false , final , 
+finally , float , for , function , goto , if , implements , import* ,  
+in , instanceof , int , interface , let* , long , native , new , 
+null , package , private , protected , public , return , short , static ,  
+super* , switch , synchronized , this , throw , throws , transient , true , 
+try , typeof , var , void , volatile , while , with , yield
+
+.
+.
+1.03 - JavaScript Arithmetic Operators 
+
++    Addition
+-    Subtraction
+*    Multiplication
+**   Exponentiation (ES2016)
+/    Division
+%    Modulus (Division Remainder)
+++   Increment
+--   Decrement
+
+
+.
+.
+1.04 - JavaScript Assignment Operators 
+
+=    x = y    x = y
++=   x += y   x = x + y
+-=   x -= y   x = x - y
+*=   x *= y   x = x * y
+/=   /= y     x = x / y
+%=   x %= y   x = x % y
+
+
+.
+.
+1.05 - JavaScript Comparison Operators 
+
+==    equal to
+===   equal value and equal type
+!=    not equal
+!==   not equal value or not equal type
+>     greater than
+<     less than
+>=    greater than or equal to
+<=    less than or equal to
+?     ternary operator
+
+
+.
+.
+1.06 - 

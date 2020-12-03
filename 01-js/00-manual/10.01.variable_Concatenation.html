@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- title -->
+    <title> java-Script - variable </title>
+    <script>
+
+// TODO 
+// fix Concatenation
+//
+
+        var StringMarks_1 = " Test for \"jron\" ";
+        var StringMarks_2 = ' Test for "jron" ';
+        var StringMarks_3 = ` Test 'it' and "enjoy" `;
+        var StringMarks_4 = " 'Error'.. `temp` message ";
+
+        var isActive = true;
+        var isHoliday = false;
+    </script>
+</head>
+
+<body>
+    <script>
+        document.write("isActive ::: " + isActive + " isHoliday ::: " + isHoliday);
+        console.info(StringMarks_1);
+        console.log(StringMarks_2);
+        console.warn(StringMarks_3);
+        console.error(StringMarks_4);
+        document.write(StringMarks_4);
+        StringMarks_4 = StringMarks_1;
+        //unassigned variable value
+        let stName;
+        let a;
+        console.log("stName === " + stName); //undefined
+        console.log("a += 2 === " + (a += 2)); //NaN
+    </script>
+</body>
+
+</html>

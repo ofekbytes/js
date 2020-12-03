@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- title -->
+    <title> java-Script - variable </title>
+    <script>
+        //variable with value assignment operator
+        var stFirstName = "yaron";
+
+        var stLastName; //variable without value assignment operator
+        var stFullName; // null;
+    </script>
+</head>
+
+<body>
+    <script>
+        console.log("1/> stLast is ::: " + typeof (stLastName));
+        if (stLastName === undefined) {
+            console.log("2/> stLast is ::: " + typeof (stLastName));
+
+            stLastName = "jron";
+            console.log("3/> stLast is ::: " + typeof (stLastName));
+        }
+        document.write("my name is: <u> " + stFirstName + "</u> , <u>" + stLastName + " </u> ");
+        document.write("why");
+        stFullName = "<br/>" + stLastName + " " + stFirstName + " is my name .";
+        document.write(stFullName);
+    </script>
+</body>
+
+</html>

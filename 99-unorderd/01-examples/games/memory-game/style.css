@@ -1,0 +1,28 @@
+
+
+h1 {
+    color: red;
+}
+
+/* multiple lines */
+.grid {
+
+    /* glex-grid - multiple line*/
+    display: flex-grid; 
+    flex-wrap: warp;
+
+    /*  ( 3 x 4 square grid ) */
+    height: 300px;
+    width: 400px;
+}
+
+ /* single line */
+.grid-single-line {
+
+   /* flex - one line */
+   display: flex; 
+
+   height: 100px;
+   width: 1200px;
+}
+

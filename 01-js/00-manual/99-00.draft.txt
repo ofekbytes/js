@@ -1,0 +1,25 @@
+
+JavaScript - draft file.
+
+
+JavaScript - 
+DOM - Document Object Model
+
+https://en.wikipedia.org/wiki/Document_Object_Model
+
+
+-V- function, loose typing, dynamic object, expressive object
+-X- model based on global variables ??
+
+-?- lambda language
+-?- lisp, scheme
+
+-!- java - strong typing language, compiler can detect errors at compile time.
+-!- JavaScript - is a loosely typed language --> javaScript unable to detect type error.
+-!- object literal notation
+-!- object can be created by listing their components. (like json)
+-?- prototypal inheritance 
+-?- object inheritance properties directly from other object.
+-?- global object - all the top level variable called the "global object".
+
+

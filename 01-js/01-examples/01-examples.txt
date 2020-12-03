@@ -1,0 +1,56 @@
+
+
+---[javascript weird code stuff]----
+
+console.log(0.1 + 0.1 == 0.2)
+true
+
+console.log(0.1 + 0.2 == 0.3)
+false
+
+console.log(0.1 + 0.3 == 0.4)
+true
+
+------------------------------------
+
+
+---[History]----skas@1974.com
+
+
+alert(window.history.length)
+
+// Like a previous page button
+history.back();
+
+// Like the next page button
+history.forward();
+
+// Like a previous x2 page button
+history.go(-2);
+
+// Like the next page button
+history.go(3);
+
+//refresh current page
+history.go(0);
+
+// // history.replaceState
+// 'http://codepen.io/change_url_name' ==> change url name base on the same path
+// null ==> javascript future use - set name to the page
+// 'i am on console' ==> state object - String / json
+history.replaceState('i am on console', null, 'http://codepen.io/change_url_name');
+console.log(history.state)
+
+
+// // new history entery
+//stat,  not-used,   whats the domain name will be
+history.pushState(null, null, 'myDomain')
+
+
+//turn off javascript in url
+//https://codepen.io/beaucarnes/pen/LyJLGd?editors=0012
+
+//https://codepen.io/beaucarnes/pen/LyJLGd?turn_off_js=true
+
+
+
